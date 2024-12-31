@@ -1,0 +1,9 @@
+# 账户欠费退出
+BALANCE_DEPLETION_EXIT_CODE = 2
+# 超时退出
+TIME_LIMIT_EXIT_CODE = 3
+TIME_LIMIT_SECONDS = 55 * 60  # 55 minutes in seconds
+
+# 每个任务的时间限制，单位: 秒
+TASK_MAX_TIME_LIMIT = 280
+WORKFLOW_PER_REST_TIME = 3
